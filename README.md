@@ -23,6 +23,10 @@ cd ~/rbtg_ws
 catkin_make
 source devel/setup.bash
 
+gazebo açılır:
+
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+
 Move-Stop-Rotate çalıştırılır:
 
 rosrun odev3 move_stop_rotate.py
